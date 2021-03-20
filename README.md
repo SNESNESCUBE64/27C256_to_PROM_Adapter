@@ -2,6 +2,11 @@
 
 The purpose of this repo is to replace the old obselete PROMs. It is recommended that you use the Atmel AT27C256-45PU. It is a very fast OTP EPROM that can be purchased from reputable sellers such as mouser.com. All board designs are done in Kicad.
 
+## 82S123
+Just a drop in replacement, no jumpers or anything. Just solder the pins, burn the rom, then solder the rom and insert in the socket!
+
+![82S123](Images/82S123.png)
+
 ## 82S126/82S129/82S130/82S131
 These are untested as of right now, but hardware has been ordered to verify functionality. There are two jumpers, for 82S130/82S131, jump pins 1 and 2 for both jumper sets. For 82S126/82S129, jump pins 2 and 3 for both jumper sets.
 
