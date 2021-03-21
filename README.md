@@ -2,6 +2,8 @@
 
 The purpose of this repo is to replace the old obselete PROMs. It is recommended that you use the Atmel AT27C256-45PU. It is a very fast OTP EPROM that can be purchased from reputable sellers such as mouser.com. All board designs are done in Kicad.
 
+*Just as a disclaimer, these are not garunteed to work with everything. Not all of the adapters have been verified to work. As these are verified working, the table will be updated.*
+
 ## Chip Verification
 | Chip   | Boards Made? | Verified Working? | Test Details                                                                      |
 |--------|--------------|-------------------|-----------------------------------------------------------------------------------|
