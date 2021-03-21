@@ -1,4 +1,4 @@
-# 27C256_to_PROM_Adapter
+# 27C256 to PROM Adapter
 
 The purpose of this repo is to replace the old obselete PROMs. It is recommended that you use the Atmel AT27C256-45PU. It is a very fast OTP EPROM that can be purchased from reputable sellers such as mouser.com. All board designs are done in Kicad.
 
