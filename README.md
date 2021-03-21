@@ -25,3 +25,5 @@ There are two jumpers, for 82S130/82S131, jump pins 1 and 2 for both jumper sets
 
 ## 82S137
 Just a drop in replacement, no jumpers or anything. Just solder the pins, burn the rom, then solder the rom and insert in the socket! One thing to note with this, only the 4 low bits are used with this one. Make sure your binaries are not using the data in the upper bits.
+
+![82S123](Images/82S137.png)
