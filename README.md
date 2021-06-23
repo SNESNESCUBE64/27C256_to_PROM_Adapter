@@ -14,6 +14,8 @@ The purpose of this repo is to replace the old obselete PROMs. It is recommended
 | 82S131 | Yes          | No                | Untested                                                                          |
 | 82S137 | No           | No                | Untested                                                                          |
 | 82S141 | No           | No                | Untested                                                                          |
+| 82S141 | No           | No                | Untested                                                                          |
+| 82S147 | No           | No                | Untested                                                                          |
 
 ## 82S123
 Just a drop in replacement, no jumpers or anything. Just solder the pins, burn the rom, then solder the rom and insert in the socket!
@@ -28,4 +30,10 @@ There are two jumpers, for 82S130/82S131, jump pins 1 and 2 for both jumper sets
 ## 82S137
 Just a drop in replacement, no jumpers or anything. Just solder the pins, burn the rom, then solder the rom and insert in the socket! One thing to note with this, only the 4 low bits are used with this one. Make sure your binaries are not using the data in the upper bits.
 
-![82S123](Images/82S137.png)
+![82S137](Images/82S137.png)
+
+## 82S141
+This one is a little bit different, it uses active circuitry to combine the chip select. It basically adds a 74ALS02 and a 0.1uF 0603 sized capacitor. The reason is because the 82S141 has four chip enables where as the 27C256 only has two. 
+
+![82S141](Images/82S141_1.png)
+![82S141](Images/82S141_2.png)
