@@ -16,6 +16,7 @@ The purpose of this repo is to replace the old obselete PROMs. It is recommended
 | 82S141 | No           | No                | Untested                                                                          |
 | 82S141 | No           | No                | Untested                                                                          |
 | 82S147 | No           | No                | Untested                                                                          |
+|TKG Elim| Yes          | Yes               | Tested working on a TRS2 Radarscope PCB set. Ran with no issues.                  |
 
 ## 82S123
 Just a drop in replacement, no jumpers or anything. Just solder the pins, burn the rom, then solder the rom and insert in the socket!
@@ -37,3 +38,14 @@ This one is a little bit different, it uses active circuitry to combine the chip
 
 ![82S141](Images/82S141_1.png)
 ![82S141](Images/82S141_2.png)
+
+## TKG CPU PROM Eliminator
+This is a board that combines the two PROMs found on the CPU board of Donkey Kong and Radarscope PCBs. It is more of an application than a direct PROM adapter. View the readme in the TKG CPU Eliminator folder for more details.
+
+This has been tested and verified working on a TRS2 Radarscope PCB, but should be compatible with the following game boards:
+- Radarscope (TRS2)
+- Donkey Kong (TKG2)
+- Donkey Kong (TKG3)
+- Donkey Kong (TKG4)
+
+![TKG PROM Eliminator](TKG_CPU_PCB_Adapter/Images/TKGEliminator.jpg)
