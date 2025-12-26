@@ -26,3 +26,12 @@ A simple bat file is provided to easily execute it, it assumes that you have "py
 
 ### Burning the EPROM
 You do not have to do anything special to burnt he eprom once you have the merged file. Duplicating to fill the EPROM is unecessary. Just load the merged PROM files at the beginning of memory for your programmer perform the programming.
+
+## Compatibility
+This has been tested and verified working on a TRS2 Radarscope PCB, but should be compatible with the following game boards:
+- Radarscope (TRS2)
+- Donkey Kong (TKG2)
+- Donkey Kong (TKG3)
+- Donkey Kong (TKG4)
+
+It might also be compatible with Donkey Kong JR CPU PCB Boards, but I have not verified the spacing.
