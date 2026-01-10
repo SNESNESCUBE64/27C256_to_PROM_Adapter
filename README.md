@@ -12,6 +12,7 @@ The purpose of this repo is to replace the old obselete PROMs. It is recommended
 | 82S129 | Yes          | Yes               | Tested audio PROM 1D and Color PROM 1C on Galaga, ran for 4 hours with no issues  |
 | 82S130 | Yes          | No                | Untested                                                                          |
 | 82S131 | Yes          | No                | Untested                                                                          |
+| 82S135 | No           | No                | Untested                                                                          |
 | 82S137 | No           | No                | Untested                                                                          |
 | 82S141 | No           | No                | Untested                                                                          |
 | 82S141 | No           | No                | Untested                                                                          |
@@ -27,6 +28,11 @@ Just a drop in replacement, no jumpers or anything. Just solder the pins, burn t
 There are two jumpers, for 82S130/82S131, jump pins 1 and 2 for both jumper sets. For 82S126/82S129, jump pins 2 and 3 for both jumper sets. One thing to note with this, only the 4 low bits are used with this one. Make sure your binaries are not using the data in the upper bits.
 
 ![82S126/82S129/82S130/82S131](Images/82S126.png)
+
+## 82S135
+Just a drop in replacement, no jumpers or anything. Just solder the pins, burn the rom, then solder the rom and insert in the socket! Uses the upper 256 bytes.
+
+![82S135](Images/82S135.png)
 
 ## 82S137
 Just a drop in replacement, no jumpers or anything. Just solder the pins, burn the rom, then solder the rom and insert in the socket! One thing to note with this, only the 4 low bits are used with this one. Make sure your binaries are not using the data in the upper bits.
